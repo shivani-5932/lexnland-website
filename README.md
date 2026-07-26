@@ -1,83 +1,179 @@
-# Lex n Land — Landing Website
+# 🏡 Lex n Land – Premium Real Estate Landing Website
 
-A premium, luxury real-estate landing page built with **Next.js 14 (App Router)**,
-**TypeScript**, **Tailwind CSS**, **GSAP + ScrollTrigger**, **Lenis** smooth scroll,
-and **lucide-react** icons — matching the Lex n Land mobile app's brand identity
-exactly.
+> **Find. Trust. Own.**
 
-## Brand tokens
+A modern, luxurious, and high-performance landing website built for **Lex n Land**, a next-generation real estate platform that simplifies buying, renting, and selling properties through an elegant mobile-first experience.
 
-| Token       | Hex       |
-|-------------|-----------|
-| Wine        | `#A63B69` |
-| Wine Dark   | `#7F2E50` |
-| Soft Pink   | `#F7E8EE` |
-| Background  | `#FCFAFB` |
-| Text        | `#1D1D1F` |
-| Text Soft   | `#6B6B6B` |
-| Gold Accent | `#D4AF37` |
+Designed with premium aesthetics inspired by Apple, Airbnb, and modern SaaS products.
 
-Fonts: **Playfair Display** (headings) + **Poppins** (body), loaded via
-`next/font/google` and exposed as Tailwind's `font-serif` / `font-sans`.
+---
 
-All tokens live in `tailwind.config.ts` — change them there and the whole site
-updates.
+## ✨ Overview
 
-## Getting started
+Lex n Land is a real estate platform focused on creating a seamless and trustworthy property discovery experience.
+
+This landing website serves as the official pre-launch website, showcasing the platform, highlighting its features, and encouraging users to download the mobile application once it becomes available.
+
+---
+
+## 🚀 Features
+
+- 🎨 Premium Luxury UI/UX
+- 📱 Interactive Mobile App Showcase
+- 🎥 Embedded App Walkthrough Video
+- 🏡 Buy • Rent • Sell Experience
+- 🔍 Verified Property Discovery
+- 💬 Direct Owner Connections
+- 📍 Smart Location Search
+- ❤️ Wishlist Support
+- ✨ Smooth GSAP Animations
+- 🎯 Responsive Design
+- 🌙 Dark Mode Ready Architecture
+- ⚡ Optimized Performance
+- 🔒 Secure & Trustworthy Branding
+
+---
+
+## 🖼️ Website Sections
+
+- Hero Section
+- Launching Soon Banner
+- Mobile App Showcase
+- Features
+- How It Works
+- Why Choose Lex n Land
+- Property Showcase
+- App Demo
+- Testimonials
+- About Us
+- Founder Vision
+- FAQ
+- Contact
+- Newsletter
+- Footer
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- GSAP
+- Lenis Smooth Scroll
+- Lucide Icons
+
+---
+
+## 🎨 Design Philosophy
+
+The website follows a premium design language inspired by luxury technology brands.
+
+Design principles include:
+
+- Minimalism
+- Elegant Typography
+- Glassmorphism
+- Soft Gradients
+- Micro Interactions
+- Smooth Scroll Animations
+- Premium Spacing
+- Modern Accessibility
+
+---
+
+## 📱 Mobile Application
+
+The landing page showcases the complete Lex n Land mobile application journey:
+
+- Splash Screen
+- Sign In
+- OTP Authentication
+- Role Selection
+- Property Discovery
+- Property Details
+- User Profile
+
+---
+
+## 🚧 Project Status
+
+**Current Status:** Pre-Launch
+
+The website is ready while the mobile application is preparing for its official launch on Google Play.
+
+---
+
+## 📂 Installation
 
 ```bash
+git clone https://github.com/shivani-5932/lexnland-website.git
+
+cd lexnland-website
+
 npm install
+
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+---
 
-## Project structure
+## 📸 Screenshots
 
-```
-app/
-  layout.tsx        Root layout — fonts, loader, cursor, smooth scroll
-  page.tsx           Composes every section
-  globals.css        Base styles + CSS custom properties
-components/
-  Navbar.tsx          Sticky glass nav with mobile drawer
-  Hero.tsx            Animated headline, 3D-tilt phone mockup with app video
-  DownloadSection.tsx Store buttons + QR code (pre-launch)
-  LaunchingSoon.tsx   Glass cards + early-access CTA
-  Features.tsx        12-feature grid
-  HowItWorks.tsx       Interactive 8-step journey with live phone preview
-  WhyUs.tsx            Comparison table
-  Properties.tsx       Featured property cards
-  Testimonials.tsx    Horizontal-scroll testimonial cards
-  AppDemo.tsx          Full walkthrough video player
-  About.tsx            Mission / vision
-  Roadmap.tsx          Founder's future-vision cards
-  FAQ.tsx              Accordion
-  Contact.tsx          Info panel + form
-  Newsletter.tsx      Email capture
-  Footer.tsx
-  Loader.tsx           Animated logo splash on first paint
-  CustomCursor.tsx     Dot + ring cursor (desktop only)
-  Reveal.tsx           Reusable GSAP ScrollTrigger fade/slide-in wrapper
-  SmoothScrollProvider.tsx   Wires Lenis to GSAP's ticker
-lib/
-  data.ts              All section copy/content in one place
-public/
-  logo.png
-  videos/hero-loop.mp4   Short looping clip for the hero phone mockup
-  videos/app-demo.mp4    Full walkthrough for the App Demo section
-```
+### 🏠 Home
 
-## Notes & next steps
+![Home](screenshots/home.png)
 
-- **Property photos** are stock Unsplash images — swap in real listings via
-  `lib/data.ts` → `PROPERTIES`.
-- **Store links & QR code** in `DownloadSection.tsx` point to placeholder URLs —
-  update with your real waitlist / App Store / Play Store links.
-- **Videos** are already compressed (H.264, muted where used as background loops).
-  Replace `public/videos/*.mp4` with new exports if you update the app walkthrough.
-- The design uses Tailwind's arbitrary values extensively to hit exact pixel/
-  spacing values from the original spec — feel free to consolidate into named
-  scale values as the design settles.
-- Add `shadcn/ui` components (`npx shadcn@latest init`) if you want prebuilt,
-  themeable primitives (dialogs, toasts, etc.) as the product grows.
+---
+
+### ⚙️ How It Works
+
+![How It Works](screenshots/how-it-works.png)
+
+---
+
+### 💼 Careers
+
+![Careers](screenshots/careers.png)
+
+---
+
+## 📈 Future Roadmap
+
+- AI Property Recommendations
+- Interactive Maps
+- Virtual Property Tours
+- Verified Builders
+- Smart Investment Insights
+- iOS Application
+- Admin Dashboard
+- Owner Portal
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are always welcome.
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Developed By
+
+**Shivani Emanuel**
+
+Built with ❤️ for **Lex n Land**.
+
+---
+
+## 🌟 Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
